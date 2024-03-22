@@ -1,3 +1,12 @@
 body{
   font-family: franklin-gothic-urw, sans-serif;
 }
+
+#logoImage{
+  width: 289px; height: 93px;
+  float: left;
+}
+
+#title{
+  text-align: center;
+}
