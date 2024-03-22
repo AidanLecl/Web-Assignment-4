@@ -14,3 +14,7 @@ body{
 #intructionText{
   clear: left;
 }
+
+.questionGroupTitle{
+  background-color: grey;
+}
