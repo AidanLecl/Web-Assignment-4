@@ -35,6 +35,11 @@ body{
   margin-left: 20px;
 }
 
+#submitButton{
+  margin-top: 10px;
+  padding-left: 15px; padding-right: 15px;
+}
+
 .questionGroupTitle{
   background-color: grey;
 }
@@ -45,4 +50,12 @@ body{
 
 .bottomComments{
   margin-bottom: 15px;
+}
+
+.mediumTextInput{
+  width: 500px;
+}
+
+.smallTextInput{
+  width: 300px;
 }
