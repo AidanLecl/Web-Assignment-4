@@ -30,3 +30,7 @@ body{
 .questionGroupTitle{
   background-color: grey;
 }
+
+.optionSelect{
+  margin-top: 15px; margin-bottom: 17px;
+}
