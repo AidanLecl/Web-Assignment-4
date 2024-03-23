@@ -23,7 +23,7 @@
       <input type="radio" name="semesterSelect" value="W" class="optionSelect">Winter
       <input type="radio" name="semesterSelect" value="S" class="optionSelect">Spring/Summer
       <label id="yearLabel">Year:</label>
-      <input type="number" name="yearSelect"><br>
+      <input type="number" name="yearSelect" id="yearSelect"><br>
       <label>Instructor:</label>
       <input type="text" name="instructor" class="smallTextInput">
       <h4 class="questionGroupTitle">Instructor</h4>
@@ -79,12 +79,14 @@
       <input type="radio" name="wouldRecommendSelect" value="N" class="optionSelect">No
       <input type="radio" name="wouldRecommendSelect" value="S" class="optionSelect">Not Sure<br>
       <h4 class="questionGroupTitle">Any Other Comments</h4>
-      <label class="bottomComments">11. What is the best thing about this course?</label>
-      <input type="text" name="bestAboutCourse" class="bottomComments"><br>
-      <label>12. How could we improve this course?</label>
-      <input type="text" name="whatCouldBeImproved" class="bottomComments"><br>
+      <label class="bottomComments">11. What is the best thing about this course?</label><br>
+      <!--<input type="text" name="bestAboutCourse" class="bottomComments largeTextInput"><br>-->
+      <textarea name="bestAboutCourse" cols="60" rows="4"></textarea><br>
+      <label>12. How could we improve this course?</label><br>
+      <!--<input type="text" name="whatCouldBeImproved" class="bottomComments largeTextInput"><br>-->
+      <textarea name="whatCouldBeImproved" cols="60" rows="4"></textarea><br>
       <label>13. Other:<br></label>
-      <textarea name="otherComments" cols="50" rows="10"></textarea><br>
+      <textarea name="otherComments" cols="60" rows="8"></textarea><br>
       <input type="submit" value="Submit Survey" id="submitButton">
     </form>
     <div>

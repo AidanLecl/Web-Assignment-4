@@ -4,6 +4,10 @@ body{
   width: 1200px;
 }
 
+textarea{
+  margin-top: 15px; margin-bottom: 15px;
+}
+
 #logoImage{
   width: 289px; height: 93px;
   float: left;
@@ -38,6 +42,10 @@ body{
 #submitButton{
   margin-top: 10px;
   padding-left: 15px; padding-right: 15px;
+}
+
+#yearSelect{
+  width: 60px;
 }
 
 .questionGroupTitle{
