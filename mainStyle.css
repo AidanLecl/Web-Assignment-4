@@ -27,6 +27,10 @@ body{
   float: right;
 }
 
+#bottomText{
+  text-align: center;
+}
+
 .questionGroupTitle{
   background-color: grey;
 }
