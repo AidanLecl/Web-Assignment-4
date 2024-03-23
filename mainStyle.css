@@ -31,6 +31,10 @@ body{
   text-align: center;
 }
 
+#yearLabel{
+  margin-left: 20px;
+}
+
 .questionGroupTitle{
   background-color: grey;
 }
