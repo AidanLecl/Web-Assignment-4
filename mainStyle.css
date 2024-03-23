@@ -1,5 +1,7 @@
 body{
   font-family: franklin-gothic-urw, sans-serif;
+  margin-right: auto; margin-left: auto;
+  width: 1200px;
 }
 
 #logoImage{
@@ -13,6 +15,14 @@ body{
 
 #intructionText{
   clear: left;
+}
+
+#continuingEducationLink{
+  float: left;
+}
+
+#continuingEducationEmail{
+  float: right;
 }
 
 .questionGroupTitle{
