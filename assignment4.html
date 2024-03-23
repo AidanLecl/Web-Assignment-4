@@ -16,6 +16,16 @@
       <p id="intructionText">Please answer all the questions given below. Also make sure to read each statement carefully and answer each statement individually.</p>
     </div>
     <form action="">
+      <label>Course Name/Code:</label>
+      <input type="text" name="courseNameCode"><br>
+      <label>Semester:</label>
+      <input type="radio" name="semesterSelect" value="F">Fall
+      <input type="radio" name="semesterSelect" value="W">Winter
+      <input type="radio" name="semesterSelect" value="S">Spring/Summer
+      <label>Year:</label>
+      <input type="number" name="yearSelect"><br>
+      <label>Instructor:</label>
+      <input type="text" name="instructor">
       <h4 class="questionGroupTitle">Instructor</h4>
       <p>How would you rate your instructor's:</p>
       <label>1. Knowledge of the subject</label><br>
@@ -43,6 +53,39 @@
       <input type="radio" name="overrallPerformanceSelect" value="G">Good
       <input type="radio" name="overrallPerformanceSelect" value="F">Fair
       <input type="radio" name="overrallPerformanceSelect" value="N">Not Satisfactory<br>
+      <h4 class="questionGroupTitle">Course</h4>
+      <label>6. How would you rate the course materials?</label><br>
+      <input type="radio" name="rateMaterialsSelect" value="E">Excellent
+      <input type="radio" name="rateMaterialsSelect" value="G">Good
+      <input type="radio" name="rateMaterialsSelect" value="F">Fair
+      <input type="radio" name="rateMaterialsSelect" value="N">Not Satisfactory<br>
+      <label>7. How much did this course meet your expectations?</label><br>
+      <input type="radio" name="courseExpectationSelect" value="E">Excellent
+      <input type="radio" name="courseExpectationSelect" value="G">Good
+      <input type="radio" name="courseExpectationSelect" value="F">Fair
+      <input type="radio" name="courseExpectationSelect" value="N">Not Satisfactory<br>
+      <label>8. How would you rate the course overrall?</label><br>
+      <input type="radio" name="overallCourseRateSelect" value="E">Excellent
+      <input type="radio" name="overallCourseRateSelect" value="G">Good
+      <input type="radio" name="overallCourseRateSelect" value="F">Fair
+      <input type="radio" name="overallCourseRateSelect" value="N">Not Satisfactory<br>
+      <h4 class="questionGroupTitle">General Information</h4>
+      <label>9. Was the course outline reviewed/explained at the beginning of the course?</label><br>
+      <input type="radio" name="courseOutlineReviewedSelect" value="Y">Yes
+      <input type="radio" name="courseOutlineReviewedSelect" value="N">No
+      <input type="radio" name="courseOutlineReviewedSelect" value="S">Not Sure<br>
+      <label>10. Would you recommend this course to a friend with the same interests?</label><br>
+      <input type="radio" name="wouldRecommendSelect" value="Y">Yes
+      <input type="radio" name="wouldRecommendSelect" value="N">No
+      <input type="radio" name="wouldRecommendSelect" value="S">Not Sure<br>
+      <h4 class="questionGroupTitle">Any Other Comments</h4>
+      <label>11. What is the best thing about this course?</label>
+      <input type="text" name="bestAboutCourse"><br>
+      <label>12. How could we improve this course?</label>
+      <input type="text" name="whatCouldBeImproved"><br>
+      <label>13. Other:</label>
+      <input type="text" name="otherComments"><br>
+      <input type="submit" value="Submit Survey">
     </form>
   </body>
 </html>
